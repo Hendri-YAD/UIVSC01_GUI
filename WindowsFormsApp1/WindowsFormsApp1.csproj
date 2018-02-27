@@ -31,6 +31,10 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -45,14 +49,89 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CatchAFish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatchAFish.Designer.cs">
+      <DependentUpon>CatchAFish.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatchAGenie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatchAGenie.Designer.cs">
+      <DependentUpon>CatchAGenie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CatchARabbit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CatchARabbit.Designer.cs">
+      <DependentUpon>CatchARabbit.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDetails.Designer.cs">
+      <DependentUpon>frmDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KillARabbit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KillARabbit.Designer.cs">
+      <DependentUpon>KillARabbit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MySecondForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MySecondForm.Designer.cs">
+      <DependentUpon>MySecondForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PictureBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PictureBox.Designer.cs">
+      <DependentUpon>PictureBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CatchAFish.resx">
+      <DependentUpon>CatchAFish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatchAGenie.resx">
+      <DependentUpon>CatchAGenie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CatchARabbit.resx">
+      <DependentUpon>CatchARabbit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDetails.resx">
+      <DependentUpon>frmDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KillARabbit.resx">
+      <DependentUpon>KillARabbit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MySecondForm.resx">
+      <DependentUpon>MySecondForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PictureBox.resx">
+      <DependentUpon>PictureBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

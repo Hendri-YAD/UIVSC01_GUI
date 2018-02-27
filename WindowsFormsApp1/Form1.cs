@@ -16,5 +16,30 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("My First Message");
+        }
+
+        private void Form1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("My Second Message");
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            MessageBox.Show("My Third Message");
+        }
+
+        private void Form1_MouseEnter(object sender, EventArgs e)
+        {
+            MessageBox.Show("My Fourth Message");
+        }
+
+        private void Form1_MouseDown(object sender, MouseEventArgs e)
+        {
+            MessageBox.Show("My Fifth Message");
+        }
     }
 }
